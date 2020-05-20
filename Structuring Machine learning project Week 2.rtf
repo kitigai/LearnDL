@@ -1,0 +1,449 @@
+{\rtf1\ansi\ansicpg932\cocoartf2512
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset128 HiraKakuProN-W6;\f1\fnil\fcharset128 HiraKakuProN-W3;\f2\fswiss\fcharset0 Helvetica;
+\f3\fnil\fcharset77 ZapfDingbatsITC;}
+{\colortbl;\red255\green255\blue255;\red52\green52\blue52;\red0\green0\blue0;\red176\green179\blue178;
+\red212\green212\blue212;\red242\green242\blue242;}
+{\*\expandedcolortbl;;\cssrgb\c26494\c26499\c26494;\cssrgb\c0\c0\c0;\cssrgb\c74351\c75369\c75059;
+\cssrgb\c86275\c86275\c86275;\cssrgb\c96078\c96078\c96078;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid301\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid4}
+{\list\listtemplateid5\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid401\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid5}
+{\list\listtemplateid6\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid501\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid6}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}{\listoverride\listid5\listoverridecount0\ls5}{\listoverride\listid6\listoverridecount0\ls6}}
+\paperw11905\paperh16837\margl1440\margr1440\margt1598
+\deftab720
+\pard\pardeftab720\sa360\partightenfactor0
+
+\f0\b\fs36 \cf2 \expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone Structuring Machine Learning Week 2\
+\pard\pardeftab720\sa160\partightenfactor0
+
+\fs28 \cf3 \kerning1\expnd1\expndtw5
+Carrying out error analysis\
+\pard\pardeftab720\sa160\partightenfactor0
+
+\f1\b0\fs24 \cf3 \expnd0\expndtw0\kerning0
+When you realize your cat classifier mislabels small dogs as a cats,\
+Should you try to make your cat classifier do better on dogs?\
+Error analysis\
+\pard\tx20\tx196\pardeftab720\li196\fi-197\sa160\partightenfactor0
+\ls1\ilvl0\cf3 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone Get ~100 mislabeled dev set examples\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone Count Up how many are dogs? \
+\pard\pardeftab720\sa160\partightenfactor0
+\cf3 \
+\
+\
+\
+If the dog error rate is relatively small, dealing with the dog problem is not so match effective.  \
+\
+\
+\
+\
+On the other hand, the ratio of that problem is quite big, you could be much more optimistic about spending time on the dog problem.\page Evaluate Multiple  ideas on parallel\
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clcbpat4 \clwWidth540\clftsWidth3 \clheight500 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx1728
+\clvertalt \clcbpat4 \clwWidth840\clftsWidth3 \clheight500 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx3456
+\clvertalt \clcbpat4 \clwWidth920\clftsWidth3 \clheight500 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx5184
+\clvertalt \clcbpat4 \clwWidth940\clftsWidth3 \clheight500 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx6912
+\clvertalt \clcbpat4 \clwWidth4880\clftsWidth3 \clheight500 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b\fs20 \cf3 Image
+\f2\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b\fs20 \cf3 \expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone Dog
+\f2\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b\fs20 \cf3 \expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone Big cats
+\f2\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b\fs20 \cf3 \expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone Blurry
+\f2\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b\fs20 \cf3 \expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone Comments
+\f2\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clcbpat5 \clwWidth540\clftsWidth3 \clheight300 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx1728
+\clvertalt \clshdrawnil \clwWidth840\clftsWidth3 \clheight300 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx3456
+\clvertalt \clshdrawnil \clwWidth920\clftsWidth3 \clheight300 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx5184
+\clvertalt \clshdrawnil \clwWidth940\clftsWidth3 \clheight300 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx6912
+\clvertalt \clshdrawnil \clwWidth4880\clftsWidth3 \clheight300 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b\fs20 \cf3 \expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone 1
+\f2\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f3\fs20 \cf3 \expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone \uc0\u10004 \u65038 
+\f2\fs24 \cf0 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone \cell 
+\pard\intbl\itap1\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f1\fs20 \cf3 \expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone Tiwawa
+\f2\fs24 \cf0 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clcbpat5 \clwWidth540\clftsWidth3 \clheight300 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx1728
+\clvertalt \clcbpat6 \clwWidth840\clftsWidth3 \clheight300 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx3456
+\clvertalt \clcbpat6 \clwWidth920\clftsWidth3 \clheight300 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx5184
+\clvertalt \clcbpat6 \clwWidth940\clftsWidth3 \clheight300 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx6912
+\clvertalt \clcbpat6 \clwWidth4880\clftsWidth3 \clheight300 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b\fs20 \cf3 \expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone 2
+\f2\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone \cell 
+\pard\intbl\itap1\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f3\fs20 \cf3 \expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone \uc0\u10004 \u65038 
+\f2\fs24 \cf0 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone \cell 
+\pard\intbl\itap1\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf0 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clcbpat5 \clwWidth540\clftsWidth3 \clheight300 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx1728
+\clvertalt \clshdrawnil \clwWidth840\clftsWidth3 \clheight300 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx3456
+\clvertalt \clshdrawnil \clwWidth920\clftsWidth3 \clheight300 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx5184
+\clvertalt \clshdrawnil \clwWidth940\clftsWidth3 \clheight300 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx6912
+\clvertalt \clshdrawnil \clwWidth4880\clftsWidth3 \clheight300 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b\fs20 \cf3 \expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone 3
+\f2\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone \cell 
+\pard\intbl\itap1\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f3\fs20 \cf3 \expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone \uc0\u10004 \u65038 
+\f2\fs24 \cf0 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f3\fs20 \cf3 \expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone \uc0\u10004 \u65038 
+\f2\fs24 \cf0 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone \cell 
+\pard\intbl\itap1\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf0 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clcbpat5 \clwWidth540\clftsWidth3 \clheight300 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx1728
+\clvertalt \clcbpat6 \clwWidth840\clftsWidth3 \clheight300 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx3456
+\clvertalt \clcbpat6 \clwWidth920\clftsWidth3 \clheight300 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx5184
+\clvertalt \clcbpat6 \clwWidth940\clftsWidth3 \clheight300 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx6912
+\clvertalt \clcbpat6 \clwWidth4880\clftsWidth3 \clheight300 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f0\b\fs20 \cf3 \expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone \'81\'63
+\f2\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone \cell 
+\pard\intbl\itap1\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf0 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clcbpat5 \clwWidth540\clftsWidth3 \clheight300 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx1728
+\clvertalt \clshdrawnil \clwWidth840\clftsWidth3 \clheight300 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx3456
+\clvertalt \clshdrawnil \clwWidth920\clftsWidth3 \clheight300 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx5184
+\clvertalt \clshdrawnil \clwWidth940\clftsWidth3 \clheight300 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx6912
+\clvertalt \clshdrawnil \clwWidth4880\clftsWidth3 \clheight300 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qr\partightenfactor0
+
+\f0\b\fs20 \cf3 \expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone %
+\f2\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f1\fs20 \cf3 \expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone 5%
+\f2\fs24 \cf0 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f1\fs20 \cf3 \expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone 20%
+\f2\fs24 \cf0 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f1\fs20 \cf3 \expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone 18%
+\f2\fs24 \cf0 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone \cell 
+\pard\intbl\itap1\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf0 
+\f1 \cf3 \expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone \cell \lastrow\row
+\pard\tx20\tx196\pardeftab720\li196\fi-197\sa160\partightenfactor0
+\ls2\ilvl0\cf3 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone Count Up each problems\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone Calculate percentage of each problems\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone Decide which problem you should pursue\page \pard\tx20\tx196\pardeftab720\li196\fi-197\sa160\partightenfactor0
+\ls2\ilvl0
+\f0\b\fs28 \cf3 Carrying up incorrectly labeled data\
+\pard\pardeftab720\sa160\partightenfactor0
+
+\f1\b0\fs24 \cf3  \
+\pard\tx20\tx196\pardeftab720\li196\fi-197\sa160\partightenfactor0
+\ls3\ilvl0\cf3 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone When the labels on the training set has error\
+\ls3\ilvl0\kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone Neural Network is pretty robust against these error\
+\pard\tx20\tx196\pardeftab720\li196\fi-197\sa200\partightenfactor0
+\ls3\ilvl0\cf3 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone If you have enough big data set and error ratio is not too high, you don\'81\'66t have to care about this. \
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f0\b\fs36 \cf2 Training and testing on different distributions\
+ \
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f1\b0\fs24 \cf3 When there are two datasets comes from different distributions , and the one which you care about has small number of data. Use them as a dev / test set , And use part of them as training set.\page \pard\pardeftab720\sa200\partightenfactor0
+
+\f0\b\fs36 \cf2 Bias and Variance with mismatched data distributions\
+\pard\pardeftab720\sa160\partightenfactor0
+
+\f1\b0\fs24 \cf3  \
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clcbpat4 \clwWidth2080\clftsWidth3 \clheight280 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx2160
+\clvertalt \clcbpat4 \clwWidth2060\clftsWidth3 \clheight280 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx4320
+\clvertalt \clcbpat4 \clwWidth2080\clftsWidth3 \clheight280 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx6480
+\clvertalt \clcbpat4 \clwWidth2080\clftsWidth3 \clheight280 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx8640
+\pard\intbl\itap1\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f2 \cf0 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b\fs20 \cf3 \expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone Variance
+\f2\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b\fs20 \cf3 \expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone Data mismatch
+\f2\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b\fs20 \cf3 \expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone Avoidable bias 
+\f2\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clcbpat5 \clwWidth2080\clftsWidth3 \clheight280 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx2160
+\clvertalt \clshdrawnil \clwWidth2060\clftsWidth3 \clheight280 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx4320
+\clvertalt \clshdrawnil \clwWidth2080\clftsWidth3 \clheight280 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx6480
+\clvertalt \clshdrawnil \clwWidth2080\clftsWidth3 \clheight280 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b\fs20 \cf3 \expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone Human error
+\f2\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f1\fs20 \cf3 \expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone 1%
+\f2\fs24 \cf0 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f1\fs20 \cf3 \expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone 1%
+\f2\fs24 \cf0 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f1\fs20 \cf3 \expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone 0%
+\f2\fs24 \cf0 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clcbpat5 \clwWidth2080\clftsWidth3 \clheight280 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx2160
+\clvertalt \clcbpat6 \clwWidth2060\clftsWidth3 \clheight280 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx4320
+\clvertalt \clcbpat6 \clwWidth2080\clftsWidth3 \clheight280 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx6480
+\clvertalt \clcbpat6 \clwWidth2080\clftsWidth3 \clheight280 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b\fs20 \cf3 \expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone Training error
+\f2\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f1\fs20 \cf3 \expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone 1%
+\f2\fs24 \cf0 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f1\fs20 \cf3 \expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone 1%
+\f2\fs24 \cf0 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f1\fs20 \cf3 \expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone 10%
+\f2\fs24 \cf0 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clcbpat5 \clwWidth2080\clftsWidth3 \clheight280 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx2160
+\clvertalt \clshdrawnil \clwWidth2060\clftsWidth3 \clheight280 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx4320
+\clvertalt \clshdrawnil \clwWidth2080\clftsWidth3 \clheight280 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx6480
+\clvertalt \clshdrawnil \clwWidth2080\clftsWidth3 \clheight280 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b\fs20 \cf3 \expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone Training-dev error
+\f2\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f1\fs20 \cf3 \expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone 9%
+\f2\fs24 \cf0 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f1\fs20 \cf3 \expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone 1.5%
+\f2\fs24 \cf0 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f1\fs20 \cf3 \expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone 11%
+\f2\fs24 \cf0 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clcbpat5 \clwWidth2080\clftsWidth3 \clheight280 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx2160
+\clvertalt \clcbpat6 \clwWidth2060\clftsWidth3 \clheight280 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx4320
+\clvertalt \clcbpat6 \clwWidth2080\clftsWidth3 \clheight280 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx6480
+\clvertalt \clcbpat6 \clwWidth2080\clftsWidth3 \clheight280 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\b\fs20 \cf3 \expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone Dev error
+\f2\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f1\fs20 \cf3 \expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone 10%
+\f2\fs24 \cf0 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f1\fs20 \cf3 \expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone 10%
+\f2\fs24 \cf0 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f1\fs20 \cf3 \expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone 12%
+\f2\fs24 \cf0 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clcbpat5 \clwWidth2080\clftsWidth3 \clheight260 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx2160
+\clvertalt \clshdrawnil \clwWidth2060\clftsWidth3 \clheight260 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx4320
+\clvertalt \clshdrawnil \clwWidth2080\clftsWidth3 \clheight260 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx6480
+\clvertalt \clshdrawnil \clwWidth2080\clftsWidth3 \clheight260 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt80 \clpadl80 \clpadb80 \clpadr80 \gaph\cellx8640
+\pard\intbl\itap1\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf0 \cell \lastrow\row
+\pard\pardeftab720\sa160\partightenfactor0
+
+\f1 \cf3 \expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone Use Training-dev set to distinguish witch variance or data mismatch problem you have.\
+\
+\
+\page \pard\pardeftab720\sa200\partightenfactor0
+\cf3 \
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f0\b\fs36 \cf2 Addressing data mismatch\
+\pard\pardeftab720\sa160\partightenfactor0
+
+\f1\b0\fs24 \cf3 \
+If you think you have a data mismatch problem, \
+\pard\tx20\tx196\pardeftab720\li196\fi-197\sa160\partightenfactor0
+\ls4\ilvl0\cf3 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone do error analysis \
+\ls4\ilvl0\kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone or look at training  / dev / test set try gain insight into how these two data distributions might differ\
+\ls4\ilvl0\kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone Try to get training data set more looks like dev set\
+\ls4\ilvl0\kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone One recommended way is \'81\'67Artificial data synthesis\'81\'68 \
+\pard\pardeftab720\sa200\partightenfactor0
+\cf3 \page \pard\pardeftab720\sa200\partightenfactor0
+
+\f0\b\fs36 \cf2 Transfer leaning\
+\pard\pardeftab720\sa160\partightenfactor0
+
+\f1\b0\fs24 \cf3  \
+Use model that learned from one task to another task.\
+It can be used when \'81\'63\
+\pard\tx20\tx196\pardeftab720\li196\fi-197\sa160\partightenfactor0
+\ls5\ilvl0\cf3 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone You can\'81\'66t get enough data set (such as reading x-ray scans)\
+\pard\tx20\tx196\pardeftab720\li196\fi-197\sa200\partightenfactor0
+\ls5\ilvl0\cf3 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone You might get related but different task\page \pard\tx20\tx196\pardeftab720\li196\fi-197\sa200\partightenfactor0
+\ls5\ilvl0
+\f0\b\fs36 \cf2 Multi task learning\
+\pard\pardeftab720\sa160\partightenfactor0
+
+\f1\b0\fs24 \cf3   \
+\
+\
+\
+\
+\
+\
+\pard\tx20\tx196\pardeftab720\li196\fi-197\sa160\partightenfactor0
+\ls6\ilvl0\cf3 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone Not common as transfer learning\
+\pard\tx20\tx196\pardeftab720\li196\fi-197\sa200\partightenfactor0
+\ls6\ilvl0\cf3 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone Since it\'81\'66s difficult to find or set up so many different task you would want to train  single neural network.\page \pard\tx20\tx196\pardeftab720\li196\fi-197\sa200\partightenfactor0
+\ls6\ilvl0
+\f0\b\fs36 \cf2 End to End deep learning \
+\pard\pardeftab720\sa160\partightenfactor0
+
+\f1\b0\fs24 \cf3 \
+\
+\
+\
+ \
+\
+\
+\
+\
+End to End approach directly aim result \
+ \
+}
